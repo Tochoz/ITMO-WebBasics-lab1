@@ -65,7 +65,7 @@ body{
 .main-subtitle{
     justify-self: center;
     align-self: end;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 22px;
     margin: 0 auto 20px auto;
 }
@@ -82,10 +82,10 @@ body{
     background-color: #F6F6F6;
     height: fit-content;
     padding: 120px 0 107px 0;
-    margin-bottom: 91px;
+    margin-bottom: 61px;
 }
 .about-title{
-    font-family: 'Gilroy-Bold';
+    font-family: Gilroy-Bold;
     font-size: 34px;
     line-height: 42px;
     text-align: center;
@@ -97,4 +97,61 @@ body{
     text-align: center;
     width: 500px;
     margin: 0 auto;
+}
+.skills-screen{
+    padding: 30px 1em 100px 1em;
+    margin-bottom: 120px;
+}
+.skills-title{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 69px;
+}
+.skills-subtitle{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.skills-programs{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skill-card{
+    padding: 1em 1em;
+    width: 170px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-icon{
+    height: 90px;
+    width: 90px;
+    /*background-color: gray;*/
+    margin-bottom: 24px;
+    position: center;
+}
+.card-rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9px;
+}
+.star{
+    height: 26px;
+    width: 26px;
+}
+.card-title{
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #828282;
+    height: 2em;
 }
