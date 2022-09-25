@@ -1,1 +1,1 @@
-[Watch webpage here](https://tochoz.github.io/itmo_web1)
+[Watch webpage here](https://tochoz.github.io/ITMO_web1)
