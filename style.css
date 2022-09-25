@@ -48,7 +48,7 @@ body{
     color: black;
 }
 .main-screen{
-    height: 650px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
@@ -76,7 +76,7 @@ body{
 
     height: 100%;
     width: 100%;
-    scale: revert;
+    /*scale: revert;*/
 }
 .about-screen{
     background-color: #F6F6F6;
