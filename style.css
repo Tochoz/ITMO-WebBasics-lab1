@@ -19,6 +19,7 @@
 
 body{
     font-family: Gilroy-Medium;
+    padding-bottom: 120px;
 
 }
 .container{
@@ -44,6 +45,7 @@ body{
     text-align: center;
     padding: 1em;
     color: #828282;
+    cursor: pointer;
 }
 .header-item:first-child{
     color: black;
@@ -53,6 +55,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
+
 }
 .main-info{
     display: flex;
@@ -63,6 +66,7 @@ body{
     font-family: Gilroy-Bold;
     font-size: 50px;
     letter-spacing: .06em;
+    cursor: default;
 }
 .main-subtitle{
     justify-self: center;
@@ -124,7 +128,7 @@ body{
     flex-wrap: wrap;
 }
 .skill-card{
-    padding: 1em 1em;
+    padding: 1em 1em 3em 1em;
     width: 170px;
     height: 210px;
     display: flex;
@@ -135,7 +139,7 @@ body{
     height: 90px;
     width: 90px;
     /*background-color: gray;*/
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     position: center;
 }
 .card-rate{
@@ -194,7 +198,62 @@ body{
 }
 .contacts-screen{
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*max-width: 340px;*/
 }
+.contacts-title{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contacts-subtitle{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contacts-button{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 13px 30px;
+    border-radius: 21px;
+    background-color: black;
+    margin-bottom: 80px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+.links-icons{
+    padding: 6px 0;
+    display: flex;
+    min-width: 190px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin-bottom: 40px;
+
+    max-width: 340px;
+    width: 70%;
+}
+.links-icon{
+    width: 40px;
+    height: 40px;
+}
+.links-text{
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #828282;
+}
+
+
 @media (max-width: 600px) {
     .header{
         flex-direction: column;
