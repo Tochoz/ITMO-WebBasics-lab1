@@ -97,12 +97,12 @@ body{
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
 }
 .skills-screen{
-    padding: 30px 1em 100px 1em;
-    margin-bottom: 100px;
+    padding: 30px 1em 10px 1em;
+    margin-bottom: 70px;
 }
 .skills-title{
     font-family: Gilroy-Bold;
@@ -160,6 +160,7 @@ body{
 .portfolio-screen{
     padding-top: 20px;
     height: auto;
+    margin-bottom: 110px;
 }
 .portfolio-title{
     font-family: Gilroy-Bold;
@@ -190,4 +191,21 @@ body{
     text-align: center;
     text-decoration-line: underline;
     text-decoration-color: black;
+}
+.contacts-screen{
+    padding-top: 100px;
+}
+@media (max-width: 600px) {
+    .header{
+        flex-direction: column;
+        justify-content: normal;
+        height: auto;
+    }
+
+}
+@media (max-width: 460px) {
+    .skills-programs{
+align-items: center;        flex-direction: column;
+    }
+
 }
